@@ -1,0 +1,60 @@
+.container{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.dice{
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+}
+
+body{
+    background-color: #36454F;
+    margin: 0;
+}
+
+h1 {
+    margin: 30px;
+    font-family: cursive;
+    text-shadow: 5px 0 #A9A9A9;
+    font-size: 4.5rem;
+    color: #708090;
+    text-align: center;
+}
+
+p{
+    font-size: 2rem;
+    color: #708090;
+    font-family: cursive;
+}
+
+img{
+    width: 100%;
+}
+
+.btn{
+    margin-top: 40px;
+    height: 54px;
+    border-radius: 4px;
+    font-family: sans-serif;
+    font-weight: 700;
+    padding: 10px 20px;
+    border: 0;
+    font-size: 22px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: #A9A9A9;
+    text-decoration: none;
+}
+
+.even-roll{
+    transition: transform 1.5s ease-out;
+}
+.odd-roll{
+    transition: transform 1.25s ease-out;
+}

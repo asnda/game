@@ -6,7 +6,11 @@ body {
      
 }
 
-#btn {
+#editNames {
+    margin-top: 1.5px;
+}
+
+.button {
     padding: 5px 15px;
     background: #70ACB1;
     border: 0;
@@ -15,11 +19,11 @@ body {
     font-size: 22px;
     font-weight: 500;
     border-radius: 30px;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
     margin-left: 2rem;
 }
 
-#btn:hover {
+.button:hover {
    background: #F0FFF3;
 }
 
@@ -44,7 +48,7 @@ body {
 }
 
 .popup p {
-    font-style: "Titillium Web", sans-serif ;
+    font-family: "Titillium Web", sans-serif ;
     margin-top: 2rem;
     color: #fff;
     font-size: 1.2rem;

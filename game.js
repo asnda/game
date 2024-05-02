@@ -43,4 +43,9 @@ function editNames() {
   document.querySelector("p.Player2").innerHTML = player2;
 }
 
+//reset game
 
+document.querySelector(".reset-btn").addEventListener("click", function () {
+  window.location.reload();
+  return false;
+});

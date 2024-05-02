@@ -28,3 +28,19 @@ function rollTheDice(){
     },2500);
 }
 
+//Player Names
+
+function editNames() {
+  player1 = prompt("Change Player1 Name");
+  player2 = prompt("Change Player2 Name");
+
+  if (player1.length < 1 || player2.length < 1) {
+    alert("please enter valid name");
+    return;
+  }
+  document.querySelector("p.Player1").innerHTML = player1;
+
+  document.querySelector("p.Player1").innerHTML = player2;
+}
+
+
